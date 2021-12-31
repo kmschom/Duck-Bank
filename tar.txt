@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tar -cf kschombe_951763983_Project3.tar part1/ part2/ part3/ P3_report.pdf

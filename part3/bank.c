@@ -337,11 +337,11 @@ int main(int argc, char const *argv[])
 		comm_array[c] = (char*)malloc(sizeof(char) * 256);
 	}
 
-	for(int shit = 0; shit < size; shit++)
+	for(int yy = 0; yy < size; yy++)
 	{
-		for(int hell = 0; hell < 256; hell++)
+		for(int xx = 0; xx < 256; xx++)
 		{
-			comm_array[shit][hell] = 0;
+			comm_array[yy][xx] = 0;
 		}
 	}
 
